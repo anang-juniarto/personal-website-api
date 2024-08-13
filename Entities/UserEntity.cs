@@ -24,4 +24,6 @@ public class UserEntity
     public string linkedin_url { get; set; } = string.Empty;
     [Column(TypeName = "text")]
     public string bio { get; set; } = string.Empty;
+
+    public List<EducationEntity>? ListEducation { get; set; }
 }
